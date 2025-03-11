@@ -213,8 +213,6 @@ if st.session_state.history:
 st.markdown("---")
 st.markdown("""
 **Art Studio Tools**
-- Developed by [SHUVO](https://sites.google.com/view/mr-shuvo/Home)
-- Powered by [FLUX.1](https://huggingface.co/black-forest-labs/FLUX.1-dev)
 - 150+ Artistic Style Presets
 - Professional-Grade Generation Parameters
 - Temporary Browser-Based Session Storage
