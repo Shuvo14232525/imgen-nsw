@@ -14,7 +14,7 @@ ART_STYLES = {
         "Drawn Anime", "Cute Anime", "Soft Anime"
     ],
     "Painting & Realism": [
-        "Oil Painting - Realism", "Oil Painting - Old", "Fantasy Painting",
+        "Oil Painting - Realism", "Oil Painting - Old", "Realistic", "Fantasy Painting",
         "Fantasy Landscape", "Fantasy Portrait", "Digital Painting",
         "Watercolor", "Painterly", "Concept Sketch", "Disney Sketch"
     ],
@@ -61,7 +61,7 @@ if 'history' not in st.session_state:
     st.session_state.history = []
 
 # App UI
-st.title("🎨 AKHAND IMAGE GENERATION V2 ")
+st.title("🎨 Ultimate image genarator - SVOIMGEN ")
 st.write("Professional Art Generation with 100+ Style Presets")
 
 # Input parameters
