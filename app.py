@@ -44,7 +44,7 @@ ART_STYLES = {
 }
 
 # Set up the app title and icon
-st.set_page_config(page_title="AKHAND IMAGE GENERATION V2", page_icon="🎨")
+st.set_page_config(page_title="SVO IMGEN ULTIMATE N/S", page_icon="❌")
 
 # Initialize Hugging Face Inference client
 def get_client():
@@ -127,7 +127,7 @@ if st.button("Create Artwork", type="primary"):
             # Generate artwork
             result = client.text_to_image(
                 prompt=full_prompt,
-                model="black-forest-labs/FLUX.1-dev",
+                model="xey/sldr_flux_nsfw_v2-studio",
                 negative_prompt=negative_prompt or None,
                 guidance_scale=guidance_scale,
                 height=height,
